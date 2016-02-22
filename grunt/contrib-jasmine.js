@@ -3,8 +3,8 @@ module.exports = function(grunt) {
     generic: {
       src: ['src/**/*.js'],
       options: {
-        specs: 'spec/**/*Spec.js',
-        helpers: 'spec/*Helper.js',
+        specs: 'spec/jasmine/**/*Spec.js',
+        helpers: 'spec/jasmine/helpers*Helper.js',
         vendor: [
           'https://cdnjs.cloudflare.com/ajax/libs/rxjs/4.0.8/rx.all.js'
         ],
